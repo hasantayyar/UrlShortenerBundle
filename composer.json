@@ -1,0 +1,31 @@
+{
+    "name": "hasantayyar/url-shortener-bundle",
+    "description": "",
+    "keywords": [
+        "url",
+        "short url",
+        "url shortener",
+        "symfony"
+    ],
+    "homepage": "https://github.com/hasantayyar",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasna Tayyar BEŞİK",
+            "email": "tayyar.besik@gmail.com",
+            "homepage": "http://hasantayyar.net/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": ">=2.5",
+        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/doctrine-bundle": "~1.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hasantayyar\\UrlShortenerBundle": "src/"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+url_get_long_action:
+    pattern:  /-/{shortUrl}
+    defaults: { _controller: HasantayyarUrlShortenerBundle:Short:redirect }
+    
+url_shorten_action:
+    pattern:  /-
+    defaults: { _controller: HasantayyarUrlShortenerBundle:Short:shorten }
+    requirements: { _method: post }
+    
+url_delete_action:
+    pattern:  /-
+    defaults: { _controller: HasantayyarUrlShortenerBundle:Short:delete }
+    requirements: { _method: delete }
